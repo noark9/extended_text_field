@@ -2264,6 +2264,7 @@ class ExtendedEditableTextState extends State<ExtendedEditableText>
 
     //return TextSpan(style: widget.style, text: text);
   }
+  void performPrivateCommand(String action, Map<String, dynamic> data) { }
 }
 
 class _Editable extends MultiChildRenderObjectWidget {
