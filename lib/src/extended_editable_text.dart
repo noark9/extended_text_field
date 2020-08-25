@@ -2264,6 +2264,8 @@ class ExtendedEditableTextState extends State<ExtendedEditableText>
 
     //return TextSpan(style: widget.style, text: text);
   }
+
+  @override
   void performPrivateCommand(String action, Map<String, dynamic> data) { }
 }
 
